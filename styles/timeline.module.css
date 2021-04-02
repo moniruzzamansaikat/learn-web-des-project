@@ -1,0 +1,14 @@
+.timeline ul {
+  margin: 0;
+}
+
+.timeline ul li {
+  font-size: 1.4rem;
+  margin: 15px 0;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.timeline ul li::marker {
+  content: "☑️  ";
+}

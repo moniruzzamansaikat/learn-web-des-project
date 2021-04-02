@@ -1,0 +1,36 @@
+.header {
+  min-height: 50vh;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/bg-header.jpg"), linear-gradient(#000, #000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.header h1 {
+  font-size: 4rem;
+  text-shadow: 0 10px #586294;
+  letter-spacing: 4px;
+  color: #fff;
+  z-index: 1000;
+  cursor: pointer;
+  transition: 0.34s;
+}
+
+.header h1:hover {
+  letter-spacing: 10px;
+}
